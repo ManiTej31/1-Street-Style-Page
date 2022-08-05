@@ -1,0 +1,126 @@
+ body{
+    padding: 10px 50px;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.navbar-container :nth-child(1){
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;   
+    margin-left: -253px; 
+}
+
+.list-item{
+
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-family:'Orbitron';
+    margin-left: 44px;
+}
+
+.list-item:hover{
+    border-bottom: 2px solid black; 
+}
+.button-group{
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-icon svg{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.nav-button{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.square{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 200px;
+    z-index: -1;
+}
+ 
+.globe{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 830px;
+    height: 40px;
+}
+
+.star{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 1450px;
+}
+
+
+
+.hero-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    margin: 4rem 2rem 2rem 4rem;
+    margin-left: -30px;
+}
+
+.hero-description{
+    font-family: "Poppins", Helvetica, sans-serif;
+    width: 80%;
+    text-align: center;
+    color: #454545;
+    margin-bottom: 5rem;
+    margin-left: 120px;
+}
+
+.button-join, .button-email{
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.button-email{
+    color:rgb(59, 59, 59);
+    border-color: rgb(59, 59, 59);
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+.button-join{
+    background-color:#000;
+    color: #fff;
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+.hero-container-right{
+    display:flex;
+    flex-direction: column;
+    margin-left: 700px;
+    text-align: center;
+    margin-top: -700px;
+}
+
+.square::after{
+    content: url(./assets/start.png);
+    margin-left: 50px;
+}
+
+.contact-heading{
+    margin-top: 150px;
+}
+
+span{
+    padding-right: 20px;
+}
